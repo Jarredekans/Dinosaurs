@@ -1,0 +1,263 @@
+
+        * {
+            -webkit-transition-property: all;
+            -webkit-transition-duration: .2s;
+            -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
+            -moz-transition-property: all;
+            -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
+        }
+
+        .btn {
+            color: #999;
+            background: rgba(0, 0, 0);
+            padding: 10px 20px;
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            border: none;
+            background: rgba(0, 0, 0, 0.4);
+            background: #fff;
+            padding: 20px 20px;
+            color: #1b1b1b;
+        }
+.stegosaurus {
+    text-align: center;
+    height: 500px;
+    background: url('stegosaurus.jpg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.trex {
+    text-align: center;
+    height: 500px;
+    background: url('trex.jpg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.velociraptor {
+    text-align: center;
+    height: 500px;
+    background: url('velociraptor.jpg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-weight: bold;
+    font-size: 24px;
+}
+
+.triceratops {
+      text-align: center;
+    height: 500px;
+    background: url('triceratops.jpg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-weight: bold;
+    font-size: 24px;
+}
+
+.ankylosaurus {
+    text-align: center;
+    height: 500px;
+    background: url('ankylosaurus.jpeg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.apatosaurus {
+  height: 500px;
+  background: url('apatosaurus.jpeg') center/cover no-repeat;
+  color: #ffffff;
+  background-color: ghostwhite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  filter: brightness(0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.spinosaurus {
+    height: 500px;
+    background: url('spinosaurus.jpeg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.mosasaurus {
+    height: 500px;
+    background: url('mosasaurus.jpeg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.dilophosaurus {
+    height: 500px;
+    background: url('dilophosaurus.jpg') center/cover no-repeat;
+    color: #ffffff;
+    background-color: ghostwhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.microraptor{
+  height: 500px;
+  background: url('microraptor.jpeg') center/cover no-repeat;
+  color: #ffffff;
+  background-color: ghostwhite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  filter: brightness(0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+        .removeable {
+            width: 100%;
+            height: auto;
+            filter: brightness(0.9);
+        }
+
+        .dinosaur-info {
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+            
+        }
+        .container:hover .dinosaur-info- {
+          display: block;
+          opacity: 1;
+        }
+        footer {
+            text-align: center;
+        }
+
+        header {
+            height: 200px;
+            width: 100%;
+            background: #A0D2E8;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(background112.jpg);
+            background-size: cover;
+            filter: brightness(0.5);
+            z-index: -1;
+        }
+
+        main {
+            align-items: center;
+        }
+
+        .home {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            background-image: url(background112.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 1000px;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 20%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #555;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #333;
+      }
