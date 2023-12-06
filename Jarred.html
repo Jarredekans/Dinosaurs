@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinosource.com</title>
+  <link rel="stylesheet" href="cssrepair.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      height: auto;
+    }
+    h1 {
+      color: #212121;
+      font-weight: 100;
+    }
+    .search-bar {
+      margin: 10px auto;
+      position: relative;
+      text-align: center;
+    }
+    .clear-button {
+      position: absolute;
+      right: 20px;
+      top: auto;
+      cursor: pointer;
+      transform: translateX(-70%);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><b>DINOSAURS ENCYCLOPEDIA</b></h1>
+    <nav class="style-1">
+      <a href="#home" class="btn">HOME</a>
+      <a href="#list-of-dinosaur" class="btn">LIST OF DINOSAURS</a>
+      <a href="#contact" class="btn">CONTACT</a>
+      <a href="#faq" class="btn">FAQ</a>
+    </nav>
+  </header>
+  <div class="home" id="home">
+    <p>For millions of years, dinosaurs reigned supreme during the prehistoric period, roaming the Earth with their impressive size and diversity. Giant herbivores like Stegosaurus grazed on vegetation, while fearsome predators like Tyrannosaurus Rex hunted prey. These mighty reptiles thrived in a wide range of habitats, from lush forests to arid deserts. However, their fascinating reign was ultimately cut short by a catastrophic asteroid impact, leaving behind fossils as a testament to their once dominant presence on our planet.</p>
+  </div>
+  <main id="list-of-dinosaur">
+         <h1>LIST OF DINOSAURS</h1>
+         <label for="search">Search Dinosaurs:</label>
+         <input type="text" id="search" placeholder="Type a dinosaur name">
+         <button onclick="searchDinosaur()">Search</button>
+         <button class="clear-button" onclick="clearSearch()">Cancel</button>
+    
+         <div class="stegosaurus">
+           <div class="dinosaur-info">
+             <h2>STEGOSAURUS</h2>
+             <p>Stegosaurus is a herbivorous dinosaur that lived during the Late Jurassic period. Known for its distinctive double row of large bony plates along its back and four sharp spikes on its tail, Stegosaurus had a relatively small head and a massive body.</p>
+           </div>
+         </div>
+         <br>
+         <div class="trex">
+           <div class="dinosaur-info">
+             <h2>T-REX</h2>
+             <p>T-Rex, was a large carnivorous dinosaur that lived during the Late Cretaceous period. It is one of the most well-known and formidable predators in dinosaur history. T-Rex had a massive skull with powerful jaws, filled with large, serrated teeth.</p>
+           </div>
+         </div>
+         <br>
+         <div class="velociraptor">
+           <div class="dinosaur-info">
+             <h2>VELOCIRAPTOR</h2>
+             <p>Velociraptors were small, agile, carnivorous dinosaurs that lived during the Late Cretaceous period. They had a distinctive, sickle-shaped retractable claw on each foot and are known for their intelligence.They were likely covered in feathers.</p>
+           </div>
+         </div>
+         <br>
+         <div class="triceratops">
+           <div class="dinosaur-info">
+             <h2>TRICERATOPS</h2>
+             <p>With its 3 horns, a parrot-like beak and a large frill that could reach nearly 1 metre (3 feet) across, the Triceratops skull is one of the largest and most striking of any land animal. The horns could have been used to fend off attacks from Tyrannosaurus.</p>
+           </div>
+         </div>
+         <br>
+         <div class="ankylosaurus">
+           <div class="dinosaur-info">
+             <h2>ANKYLOSAURUS</h2>
+             <p>Ankylosaurus was a herbivorous dinosaur that lived during the Late Cretaceous period. It was characterized by a heavily armored body, featuring bony plates along its back and a tail club for defense. This dinosaur was a quadrupedal, slow-moving creature, and its robust armor made it well-adapted for protection against predators.</p>
+           </div>
+         </div>
+         <br>
+         <div class="apatosaurus">
+           <div class="dinosaur-info">
+             <h2>APATOSAURUS</h2>
+             <p>Apatosaurus, also known as Brontosaurus, was a massive, long-necked herbivorous dinosaur from the Late Jurassic period. It had a small head, long neck, and a whip-like tail. Apatosaurus was a quadrupedal dinosaur with a relatively simple, slender body compared to some other sauropods. It was likely a browser, feeding on vegetation at various heights.</p>
+           </div>
+         </div>
+         <br>
+         <div class="spinosaurus">
+           <div class="dinosaur-info">
+             <h2>SPINOSAURUS</h2>
+             <p>Spinosaurus is a large theropod dinosaur that lived during the Cretaceous period. Known for its sail-like structure on its back, it likely inhabited both land and water, suggesting a semi-aquatic lifestyle. With a long crocodile-like snout, it primarily fed on fish. Fossils indicate it had robust forelimbs, possibly adapted for swimming. Discovered in North Africa, Spinosaurus remains have sparked debates and ongoing research regarding its anatomy, behavior, and ecological niche.</p>
+           </div>
+         </div>
+         <br>
+         <div class="mosasaurus">
+           <div class="dinosaur-info">
+             <h2>MOSASAURUS</h2>
+             <p>Mosasaurus, meaning "lizard of the Meuse River," was a genus of massive marine reptiles that dominated the oceans during the Late Cretaceous period, approximately 82 to 66 million years ago. These formidable predators were highly adapted to their aquatic environment, boasting streamlined bodies, paddle-like limbs, and powerful tails for propulsion.</p>
+           </div>
+         </div>
+         <br>
+         <div class="dilophosaurus">
+           <div class="dinosaur-info">
+             <h2>DILOPHOSAURUS</h2>
+             <p>Dilophosaurus was a medium-sized theropod dinosaur that lived in what is now Arizona and New Mexico during the Early Jurassic Period, about 193 to 161 million years ago. It was one of the earliest large predatory dinosaurs, and it was the largest known land animal in North America at the time.</p>
+           </div>
+         </div>
+         <br>
+         <div class="microraptor">
+             <div class="dinosaur-info">
+                   <h2>MICRORAPTOR</h2>
+                   <p>Microraptor Greek meaning: "small thief") is a genus of dromaeosaurid theropod dinosaurs that lived in what is now northeastern China during the Early Cretaceous Period, about 125 to 120 million years ago. It is one of the earliest known dinosaurs with feathers, and it is considered to be one of the transitional forms between dinosaurs and birds.</p>
+            </div>
+         </div>
+         
+         <br>
+  </main>
+  <br>
+<br>
+  <div id="faq" class="faq-section">
+      <h1>Frequently Asked Questions</h1>
+    
+      <div class="faq-item">
+        <h2>1. What is the purpose of the Dinosaur Encyclopedia?</h2>
+        <p>The Dinosaur Encyclopedia aims to provide information about various dinosaur species, their characteristics, and the prehistoric world they inhabited.</p>
+      </div>
+    
+      <div class="faq-item">
+        <h2>2. How accurate is the information about dinosaurs?</h2>
+        <p>We strive to provide accurate and up-to-date information based on current scientific understanding. However, ongoing research may lead to new discoveries and revisions.</p>
+      </div>
+      <div id="faq">
+        <div class="faq-item">
+          <h2>3. Can I contribute to the Dinosaur Encyclopedia?</h2>
+          <p>Currently, we do not have a contribution system. The content is curated by our team of experts. If you have suggestions or corrections, feel free to contact us.</p>
+        </div>
+    
+        <div class="faq-item">
+          <h2>4. How can I search for a specific dinosaur?</h2>
+          <p>Use the search bar on the main page. Type the name of the dinosaur you're interested in, and the encyclopedia will filter and display relevant information.</p>
+        </div>
+    
+        <div class="faq-item">
+          <h2>5. Is the Dinosaur Encyclopedia suitable for educational purposes?</h2>
+          <p>Yes, the Dinosaur Encyclopedia can be a valuable resource for educational purposes, providing students and enthusiasts with information about dinosaurs and the prehistoric era.</p>
+        </div>
+      </div>
+      <br>
+  <div id="contact">
+    <h1>Contact Us</h1>
+    
+    <form class="contact-form" action="/submit_contact_form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="message">Message:</label>
+      <input id="message" name="message" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    function searchDinosaur() {
+      var input, filter, dinosaurs, i, txtValue;
+      input = document.getElementById("search");
+      filter = input.value.toUpperCase();
+      dinosaurs = document.querySelectorAll('.dinosaur-info');
+
+      dinosaurs.forEach(function (dino) {
+        txtValue = dino.textContent || dino.innerText;
+        if (filter === "" || txtValue.toUpperCase().indexOf(filter) > -1) {
+          dino.parentElement.style.display = "block";
+        } else {
+          dino.parentElement.style.display = "none";
+        }
+      });
+
+      var visibleSection = document.querySelector('.dinosaur-info:not([style*="display: none"])');
+      if (visibleSection) {
+        visibleSection.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function clearSearch() {
+      var input = document.getElementById("search");
+      input.value = "";
+      searchDinosaur();
+    }
+    
+    document.querySelector('button[onclick="searchDinosaur()"]').addEventListener('click', searchDinosaur);
+    
+    document.querySelector('.clear-button').addEventListener('click', clearSearch);
+    });
+    </script>
+    
+    </body>
+    <br>
+  <footer>
+    &copy;2023 DINOSAUR ENCYCLOPEDIA
+  </footer>
+  
+  </html>
